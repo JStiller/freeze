@@ -5,7 +5,5 @@ This is useful if you want to scroll in an popup which is layered on the body.
 This should prevent that the user is able to scroll both contents.
 
 ```js
-var myFreezeInstance = new freeze();
-
-myFreezeInstance.element(document.querySelector('...'));
+jstiller.modules.freeze.element(dom.find('input[type="checkbox"]'));
 ```

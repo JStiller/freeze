@@ -1,0 +1,27 @@
+{
+  "name": "@jstiller/freeze",
+  "version": "0.0.1",
+  "description": "freezes the body node",
+  "main": "freeze.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JStiller/freeze.git"
+  },
+  "keywords": [
+    "freeze",
+    "dialog",
+    "layer"
+  ],
+  "author": "José Stiller <info@josestiller.de> (http://www.josestiller.de)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JStiller/freeze/issues"
+  },
+  "homepage": "https://github.com/JStiller/freeze#readme",
+  "dependencies": {
+    "dom": "github:jstiller/dom"
+  }
+}

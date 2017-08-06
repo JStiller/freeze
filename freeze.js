@@ -1,5 +1,8 @@
-var freeze = (function (dependency) {
-  var nodeBody = dependency.document.querySelector('body');
+var jstiller = jstiller || {};
+jstiller.modules = jstiller.modules || {};
+
+jstiller.modules.freeze = (function (dependency) {
+  var nodeBody = dependency.dom.find('body');
 
   /**
    * freezes the body node, triggered by the delivered node
@@ -25,7 +28,8 @@ var freeze = (function (dependency) {
 
   return {
     element: element
-  }
+  };
 }({
   document: document,
+  dom: jstiller.dom,
 }));
